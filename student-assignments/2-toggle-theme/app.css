@@ -1,0 +1,89 @@
+.app {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .light-theme {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .dark-theme {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  button {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+
+  /* *************************************** */
+  
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; 
+  font-family: 'Arial', sans-serif;
+  transition: background-color 0.5s ease, color 0.5s ease; 
+  padding: 20px; 
+  box-sizing: border-box; 
+}
+
+.dark-theme {
+  background-color: #282c34; 
+  color: #f0f0f0; 
+}
+
+.light-theme {
+  background-color: #f0f0f0; 
+  color: #282c34; 
+}
+
+header h1 {
+  margin-bottom: 30px;
+  font-size: 2.5em;
+}
+
+main {
+  text-align: center;
+}
+
+main p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.1s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dark-theme button {
+  background-color: #61dafb; 
+  color: #282c34;
+}
+
+.light-theme button {
+  background-color: #282c34; 
+  color: #61dafb; 
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
